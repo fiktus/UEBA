@@ -20,4 +20,5 @@
 8. определение порога аномальности
 
 # Пример работы
-<img width="600" height="292" alt="image" src="https://github.com/user-attachments/assets/5796e3aa-3fb3-4e51-b12c-c279f115555f" />
+<img width="999" height="628" alt="Снимок3" src="https://github.com/user-attachments/assets/2b04411a-778d-474e-9493-e24f46ca8a04" />
+
