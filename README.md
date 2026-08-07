@@ -1,6 +1,14 @@
 # UEBA
 UEBA system for detecting anomalies in network flow traffic: LSTM autoencoder + PySide6 desktop application.
 
-# The raw version
+#Структура проекта
+- GUI.py - графический интерфейс приложения на PySide6. Реализованы окна сбора сетевого трафика, обучения модели и мониторинга аномалий.
+- sniffer.py - сниффер сетевого трафика (реализован при помощи библиотеки scapy). Агрегирует пакеты в сетевые потоки (flow) и формирует записи с характеристиками соединений
+- connect.py - связующий модуль между GUI и основными компонентами системы. Реализует фоновые задачи для сбора данных, обучения модели и мониторинга сетевого трафика.
+- models.py - реализация LSTM Autoencoder и ML пайплайна (предобработка данных, генерация признаков и временных окон, обучение модели, расчёт порога и обнаружение аномалий).
+- test.py - вспомогательный файл для отладки
+- traindata_and_model - директория с примером обучающего набора данных и сохранёнными весами модели. Для использования системы в другой сети необходимо собрать собственный набор данных при помощи встроенного функционала.
 
-- traindata_and_model - a directory with the data used and the weights of the model (provided as an example). To apply the model in their network, the user should collect their own data using a sniffer and retrain the model.
+#
+Система собирает сетевые потоки, формирует поведенческие признаки и использует LSTM Autoencoder для обнаружения аномалий по ошибке реконструкции.
+
