@@ -21,7 +21,7 @@
 
 # Пример работы
 ## окно для сбора обучающей выборки
-<img width="1285" height="625" alt="Снимок" src="https://github.com/user-attachments/assets/d4fa3911-ce7f-422f-89bd-7f2d2a0e292a" />
+<img width="1308" height="629" alt="Снимокnew" src="https://github.com/user-attachments/assets/5448cd39-e6ea-494f-8794-32b576a73d1a" />
 
 
 ## окно для обучения модели
