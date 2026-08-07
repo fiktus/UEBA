@@ -20,5 +20,19 @@
 8. определение порога аномальности
 
 # Пример работы
+окно для сбора обучающей выборки
+<img width="1285" height="625" alt="Снимок" src="https://github.com/user-attachments/assets/d4fa3911-ce7f-422f-89bd-7f2d2a0e292a" />
+
+
+окно для обучения модели
+<img width="995" height="627" alt="Снимок2" src="https://github.com/user-attachments/assets/9590f009-9a09-45f6-93c6-1b129ba42452" />
+
+
+мониторинг стандартного трафика
 <img width="999" height="628" alt="Снимок3" src="https://github.com/user-attachments/assets/2b04411a-778d-474e-9493-e24f46ca8a04" />
+
+
+vpn трафик (аномальность стабилизируется через какое-то время работы)
+<img width="996" height="626" alt="anomalyvpn" src="https://github.com/user-attachments/assets/ac2d18b1-8544-4747-a5dc-3ca4afea08cf" />
+
 
